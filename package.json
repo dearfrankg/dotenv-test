@@ -1,0 +1,25 @@
+{
+  "name": "@cogent-labs/dotenv-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "bin": {
+    "dotenvTest": "./src/dotenv-test.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^25.5.4"
+  }
+}
